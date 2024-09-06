@@ -1,0 +1,29 @@
+
+    .cabecalho {
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        padding: 0 80px;
+        background-color: #6278F7;
+
+        .titulo {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: white;
+                margin-left: 10px;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+
+            .link {
+                margin-left: 10px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }

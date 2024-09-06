@@ -1,0 +1,91 @@
+.pagina-inicio {
+    font-family: 'Roboto', 'Arial';
+
+    .cabecalho {
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        padding: 0 80px;
+        background-color: #6278F7;
+
+        .titulo {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: white;
+                margin-left: 10px;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+
+            .link {
+                margin-left: 10px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .menu {
+        padding: 80px;
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            margin-top: 36px;
+
+            .link {
+                text-decoration: none;
+            }
+
+            .card {
+                width: 215px;
+                height: 160px;
+                border-radius: 12px;
+
+                text-align: center;
+                align-content: center;
+                background-color: white;
+                text-decoration: none;
+
+                .retangulo {
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    height: 60px;
+                    width: 60px;
+                    border-radius: 12px;
+                }
+
+                .verde {
+                    background-color: #B3FF37;                    ;
+                }
+
+                .laranja {
+                    background-color: orange;
+                }
+
+                .roxo {
+                    background-color: purple;
+                }
+
+                .titulo {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin-top: 10px;
+                    color: #383131;
+                }
+
+                .subtitulo {
+                    font-size: 16px;
+                    font-weight: lighter;
+                    margin-top: 10px;
+                    color: #383131;
+                }
+            }
+        }
+    }
+}

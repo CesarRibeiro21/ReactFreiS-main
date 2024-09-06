@@ -1,0 +1,116 @@
+.pagina-e01 {
+    font-family: 'Roboto', 'Arial';
+
+    .cabecalho {
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        padding: 0 80px;
+        background-color: #6278F7;
+
+        .titulo {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: white;
+                margin-left: 10px;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+
+            .link {
+                margin-left: 10px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .exercicio {
+        padding: 60px;
+
+        .titulo {
+            .texto {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+
+                h2 {
+                    margin-left: 10px;
+                }
+            }
+
+            .faixa {
+                background-color: #FFCE37;
+                height: 4px;
+            }
+        }
+
+        .descricao {
+            background-color: white;
+            height: 215px;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .formulario {
+            width: 480px;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            text-align: end;
+            margin-top: 40px;
+
+            .campos {
+                height: 280px;
+                padding: 20px;
+
+                text-align: start;
+                align-content: center;
+
+                background-color: white;
+                border-radius: 12px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+                .campo {
+                    margin-bottom: 20px;
+
+                    label {
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    input {
+                        width: 100%;
+                        margin-top: 8px;
+                        border-radius: 8px;
+                        border-style: none;
+                        border: 2px solid #c3c3c3;
+                        font-size: 24px;
+                    }
+                }
+
+                .executar {
+                    text-decoration: none;
+                    float: right;
+                    padding: 10px 20px;
+                    background-color: #6278F7;
+                    color: white;
+                    border-radius: 8px;
+                }
+            }
+
+            .resultado {
+                margin-top: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.pagina-sobre {
+    font-family: 'Roboto', 'Arial';
+
+    .cabecalho {
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        padding: 0 80px;
+        background-color: #6278F7;
+
+        .titulo {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                color: white;
+                margin-left: 10px;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+
+            .link {
+                margin-left: 10px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+    .conteudo {
+        padding: 80px;
+        
+        .descricao {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 36px;
+
+            img {
+                margin-top: 60px;
+                height: 120px;
+            }
+        }
+    }
+}
