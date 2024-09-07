@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import { useState } from 'react'
 import Cabecalho from '../components/Cabecalho/cabecalho';
-
+import CabecalhoExercicios from '../components/CabecacalhoEx/cabecEx';
 export default function E01() {
     const [valorPedido, setValorPedido] = useState(0);
     const [valorCupom, setValorCupom] = useState(0);
@@ -17,7 +17,7 @@ export default function E01() {
         <div className='pagina-e01'>
             <Cabecalho/>
             <div className='exercicio'>
-               
+               <CabecalhoExercicios/>
                 <div className='formulario'>
                     <div className='campos'>
                         <div className='campo'>

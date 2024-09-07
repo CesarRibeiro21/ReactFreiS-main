@@ -4,11 +4,13 @@ import Sobre from "./pages/sobre";
 import E01 from "./pages/e01";
 import E11 from "./pages/e11";
 import E02 from "./pages/e02";
+import E04 from "./pages/e04";
 
 function Navigation() {
     return (
         <BrowserRouter>
             <Routes>
+                <Routes path='/e04' element={<E04/>}/>
                 <Route path='/e02' element={<E02/>} />
                 <Route path='/' element={<Inicio />} />
                 <Route path='/sobre' element={<Sobre />} />
