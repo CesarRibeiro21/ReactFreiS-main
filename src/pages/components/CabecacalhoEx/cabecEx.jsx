@@ -1,18 +1,18 @@
 import { Link } from 'react-router-dom'
 import './cabecEx.scss'
 
-export default function CabecalhoExercicios(){
+export default function CabecalhoExercicios(props){
     return(
     <div className='exercicio'>
          <div className='titulo'>
                     <div className='texto'>
                         <Link to='/'><img src='/voltar.png' alt='voltar' /></Link>
-                        <h2>Exercício 01 - Cupom de desconto</h2>
+                        <h2>{props.titulo ?? "Exercicio" }</h2>
                     </div>
                     <div className='faixa'/>
                 </div>
                 <div className='descricao'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorem minima delectus vero at harum quod qui culpa neque, modi laboriosam eos earum, mollitia architecto? Enim totam commodi debitis nam?</p>
+                    <p> {props.descricao}</p>
                 </div>
         </div>
 )

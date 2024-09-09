@@ -13,7 +13,7 @@ export default function Inicio() {
                 <div className='titulo'>
                     <h2>Escolha um treino...</h2>
                 </div>
-                    <Cards/>
+                 <Cards/>
             </div>
         </div>
     )

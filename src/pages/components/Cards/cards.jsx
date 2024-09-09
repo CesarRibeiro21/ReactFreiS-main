@@ -19,15 +19,16 @@ export default function Cards(){
                             <h4 className='subtitulo'>Exercício 2</h4>
                         </div>
                     </Link>
-                    
+
                     <Link to='/e04' className='link'>
                         <div className='card'>
-                            <div className='retangulo azul'></div>
-                            <h3 className='titulo'>Leitura de Livro</h3>
+                            <div className='retangulo azul'/>
+                            <h3 className='titulo'>Leitura De Livro</h3>
                             <h4 className='subtitulo'>Exercício 4</h4>
                         </div>
                     </Link>
-
+                
+            
                     <Link to='/e11' className='link'>
                         <div className='card'>
                             <div className='retangulo roxo'/>

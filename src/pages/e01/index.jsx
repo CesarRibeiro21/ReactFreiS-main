@@ -3,6 +3,8 @@ import './index.scss'
 import { useState } from 'react'
 import Cabecalho from '../components/Cabecalho/cabecalho';
 import CabecalhoExercicios from '../components/CabecacalhoEx/cabecEx';
+
+
 export default function E01() {
     const [valorPedido, setValorPedido] = useState(0);
     const [valorCupom, setValorCupom] = useState(0);
@@ -17,7 +19,9 @@ export default function E01() {
         <div className='pagina-e01'>
             <Cabecalho/>
             <div className='exercicio'>
-               <CabecalhoExercicios/>
+               <CabecalhoExercicios titulo="Exercicio 01 | Cupom desconto"
+                    descricao="Implemente um programa em Javascript para calcular o valor final de uma compra a partir do valor da compra e do cupom de desconto. O cupom diz quantos reais terá de desconto."
+               />
                 <div className='formulario'>
                     <div className='campos'>
                         <div className='campo'>

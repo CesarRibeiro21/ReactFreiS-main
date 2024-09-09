@@ -10,7 +10,7 @@ function Navigation() {
     return (
         <BrowserRouter>
             <Routes>
-                <Routes path='/e04' element={<E04/>}/>
+                <Route path='/e04' element={<E04/>} />
                 <Route path='/e02' element={<E02/>} />
                 <Route path='/' element={<Inicio />} />
                 <Route path='/sobre' element={<Sobre />} />
